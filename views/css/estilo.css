@@ -1,0 +1,89 @@
+
+body {
+	margin:auto;
+	
+}
+*{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	box-sizing: border-box;
+}
+form {
+	color:black;
+    margin-left: 400px;
+	width: 400px;
+	border: 2px solid black;
+	padding: 20px;
+	background:inherit;
+	border-radius: 15px;
+    margin-bottom: 70px;
+}
+.welcome{
+	margin-left: 400px;
+	width: 445px;
+	background-color:beige;
+	color:silver;
+	border-radius: 15px;
+}
+.container{
+	margin:auto;
+	margin-left: 400px;
+	width: 400px;
+	margin-top: 100px;
+	padding-left: 100px;
+	background-color:#fff;
+	padding: 20px;
+	border-radius: 20px;
+	border :solid 3px black;
+	justify-content: center;
+}
+h1 {
+	font-size:30px;
+    margin-top: 10px;
+	color:black;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+h2 {
+	color:black;
+	font-size: larger;
+    text-align: center;
+	
+}
+input {
+	font-size: large;
+	font-weight:lighter;
+	color:black;
+	background:inherit;
+	display: block;
+	border: 2px solid gray;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;	
+}
+button {
+	font-size: large;
+	width: 200px;
+	margin-left: 80px;
+	margin-top: 20px;
+	background-color:gainsboro;
+	padding: 10px;
+	color:black;
+	border-radius: 20px;
+	border: 3px solid gray;
+	cursor: pointer;
+
+}
+.boton {
+	font-size: larger;
+	background:red;
+	padding: 10px 100px;
+	color:#fff;
+	border-radius: 10px;
+	margin-right: 10px;
+	border: 3px solid gray;
+	cursor: pointer;
+
+}
+
