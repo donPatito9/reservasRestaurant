@@ -1,5 +1,5 @@
 <?php
-require_once "db.php";
+require_once "DB.php";
 class Reserva {
     private $id, $rut, $nombre, $fecha_hora;
 
