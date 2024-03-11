@@ -1,11 +1,8 @@
 <?php
-
 class DB
 {
-
-    private $conexion;
-
-    public function __construct()
+  private $conexion;
+  public function __construct()
     {
         try {
             $this->conexion = new PDO('mysql:host=localhost;dbname=bdreservoir', 'root', '');
@@ -19,5 +16,4 @@ class DB
         return $this->conexion;
     }
 }
-
 ?>
