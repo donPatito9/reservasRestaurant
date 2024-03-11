@@ -12,7 +12,6 @@ class Pedido {
     private $telefono;*/
    
     //Declaración de constructor
-
     public function __construct(){
 
     }
@@ -63,15 +62,11 @@ class Pedido {
            $pedido= new Pedido();
            $pedido->setMesa($fila["mesa"]);
            $pedido->setDescripcion($fila["descripcion"]); 
-             
-        
            $pedidos[] =$pedido;
         }
         return $pedidos;
     
-    }
-
-   
+    }  
 }
    
 ?>
