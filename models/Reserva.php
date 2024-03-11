@@ -43,9 +43,6 @@ class Reserva {
         $sentencia ->bindValue(1, $this->getRut());
         $sentencia ->bindValue(2,$this->getNombre());
         return $sentencia->execute();
-    
     }
 }
-
-
 ?>
